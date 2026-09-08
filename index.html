@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>晕景 HaloScope — 冰晶大气光学模拟器</title>
+<!-- 入口页: 自动跳转(1 秒)到主程序 halo_scope.html; 若未跳转请点击下方链接 -->
+<meta http-equiv="refresh" content="1;url=halo_scope.html"/>
+<script>setTimeout(function(){ location.replace('halo_scope.html'); }, 800);</script>
+<style>
+  html,body{margin:0;height:100%;background:radial-gradient(1200px 800px at 50% 30%,#0a1f42 0%,#030E24 62%,#020a1b 100%);
+    color:#dbe7f7;font-family:"Segoe UI","Helvetica Neue",Roboto,"Microsoft YaHei",Arial,sans-serif;
+    display:flex;align-items:center;justify-content:center;}
+  .box{text-align:center;padding:56px 44px;background:rgba(8,20,44,.55);
+    border:1px solid rgba(104,132,172,.35);border-radius:18px;max-width:560px;
+    box-shadow:0 14px 60px rgba(0,0,0,.45);}
+  h1{margin:0 0 4px;font-size:34px;letter-spacing:4px;font-weight:700;color:#f2f8ff;}
+  h1 .en{font-size:19px;letter-spacing:3px;margin-left:12px;
+    background:linear-gradient(90deg,#9cc6f5,#dfe9ff,#8fb8e8);
+    -webkit-background-clip:text;background-clip:text;color:transparent;}
+  .sub{font-size:13px;color:#a9c2e2;margin:6px 0 26px;letter-spacing:1px;}
+  a.enter{display:inline-block;font-size:16px;font-weight:600;letter-spacing:2px;color:#fff;
+    background:linear-gradient(135deg,#2f6dc0,#57b0ff);border-radius:10px;padding:13px 38px;
+    text-decoration:none;box-shadow:0 6px 24px rgba(47,109,192,.5);transition:.15s;}
+  a.enter:hover{filter:brightness(1.15);}
+  .wait{margin-top:18px;font-size:12px;color:#7f95b5;}
+  .t{height:10px;width:200px;margin:14px auto 0;border-radius:6px;
+    background:rgba(104,132,172,.22);overflow:hidden;}
+  .t>i{display:block;height:100%;width:40%;border-radius:6px;
+    background:linear-gradient(90deg,#57b0ff,#8fd3ff);
+    animation:load 1.1s infinite ease-in-out;}
+  @keyframes load{0%{margin-left:-40%;}100%{margin-left:100%;}}
+</style>
+</head>
+<body>
+  <div class="box">
+    <h1>晕景<span class="en">HaloScope</span></h1>
+    <div class="sub">冰晶大气光学模拟器 · 六角冰晶光线追迹 · 色散冰晕 · 天球/相机双视图</div>
+    <a class="enter" href="halo_scope.html">进入模拟器</a>
+    <div class="wait">正在载入… 未自动跳转请点击上方按钮</div>
+    <div class="t"><i></i></div>
+  </div>
+</body>
+</html>
